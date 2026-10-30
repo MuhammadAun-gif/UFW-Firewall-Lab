@@ -1,9 +1,6 @@
 # Host Firewall Lab with UFW on Ubuntu
 
-**Author:** Muhammad Aun Hasan
-**Date:** 30 October 2026
-**Platform:** VMware Workstation 17.5 · Ubuntu 22.04 virtual machine · Windows 11 host
-**Based on:** the Firewall Lab lesson in TCM Security's *Practical Security Fundamentals* course
+## Disclaimer: Worked on the lab myself, made the report and Readme via Claude
 
 ---
 
