@@ -46,9 +46,9 @@ The lab shows how a firewall blocks traffic by default, how to open one port, ho
 
 ```mermaid
 flowchart LR
-    W["Windows 11 host<br/>192.168.18.26<br/>Chrome browser"] -- "HTTP to port 8080" --> F
-    subgraph VM["Ubuntu 22.04 virtual machine - 192.168.18.54"]
-        F["UFW firewall<br/>rules checked top to bottom"] --> S["Python web server<br/>port 8080<br/>index.html"]
+    W["Windows 11 host<br/>192.168.18.26"] -- "port 8080" --> F
+    subgraph VM["Ubuntu VM - 192.168.18.54"]
+        F["UFW firewall<br/>first match wins"] --> S["Web server<br/>port 8080"]
     end
     R["Home router<br/>192.168.18.1"] --- W
     R --- VM
