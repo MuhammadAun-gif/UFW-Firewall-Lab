@@ -1,6 +1,7 @@
 # Host Firewall Lab with UFW on Ubuntu
 
-## Disclaimer: Worked on the lab myself, made the report and Readme via Claude
+## Disclaimer: 
+Worked on the lab myself, made the Report and Readme via Claude
 
 ---
 
